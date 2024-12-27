@@ -1,16 +1,42 @@
 import { FaFacebook, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import Logo from "../assets/yaraspa.png";
+
 
 const Footer = () => {
   return (
     <footer className="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 py-10 mt-10">
-      <div className="container mx-auto px-4 justify-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="w-11/12 md:w-10/12  lg:w-8/12 mx-auto justify-center items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {/* Brand and Description */}
-        <div>
-          <h2 className="text-2xl font-bold mb-3">Visa Navigator</h2>
-          <p className="text-sm leading-relaxed">
-            Your trusted partner for visa applications.
+        <div className="grid gap-2">
+          <div className="flex items-center gap-3">
+            <Link className="flex items-center">
+              <img
+                src={Logo}
+                alt="logo"
+                className="w-8 h-8 lg:w-10 lg:h-10 mr-1"
+              />
+              <p className="hidden sm:flex text-lg lg:text-2xl font-bold text-purple-600 dark:text-purple-400">
+                Yaraspa
+              </p>
+            </Link>
+          </div>
+          <p className="text-sm leading-relaxed italic">
+            Your trusted partner.
           </p>
+
+          <div className="grid gap-1">
+            <p className="text-sm leading-relaxed">
+              <b>Phone:</b> (718) 687-9641
+            </p>
+            <p className="text-sm leading-relaxed">
+              <b>Location:</b> Elmont, NY-11003
+            </p>
+            <p className="text-sm leading-relaxed">
+              <b>Email:</b> yaraspa2024@gmail.com
+            </p>
+          </div>
           <div className="flex space-x-4 mt-4">
             <a
               href="#"
@@ -93,11 +119,11 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your Email Address"
-              className="flex-1 px-4 py-2 text-gray-800 dark:text-gray-900 dark:bg-gray-100 border border-gray-300 dark:border-gray-600 rounded-lg"
+              className="flex-1 px-3 py-2 text-gray-800 dark:text-gray-900 dark:bg-gray-100 border border-gray-300 dark:border-gray-600 rounded-lg"
             />
             <button
               type="submit"
-              className="px-4 py-2 text-white text-center font-bold rounded-lg bg-gradient-to-r from-purple-400 to-blue-500 hover:from-purple-500 hover:to-blue-600"
+              className="px-3 py-2 text-white text-center  rounded-lg bg-gradient-to-r from-purple-400 to-blue-500 hover:from-purple-500 hover:to-blue-600"
             >
               Send
             </button>
@@ -106,7 +132,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-300 dark:border-gray-700 mt-8 mx-8 pt-4 text-center text-sm">
-        Copyright © 2024. <b>Visa Navigator</b> All rights reserved.
+        Copyright © 2025. <b>Yaraspa</b> All rights reserved.
       </div>
     </footer>
   );
