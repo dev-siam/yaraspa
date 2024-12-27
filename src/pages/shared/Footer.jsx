@@ -1,7 +1,7 @@
 import { FaFacebook, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import Logo from "../assets/yaraspa.png";
+import Logo from "../../assets/yaraspa.png";
 
 
 const Footer = () => {
@@ -28,7 +28,7 @@ const Footer = () => {
 
           <div className="grid gap-1">
             <p className="text-sm leading-relaxed">
-              <b>Phone:</b> (718) 687-9641
+              <b>Phone:</b> +7186 879 641
             </p>
             <p className="text-sm leading-relaxed">
               <b>Location:</b> Elmont, NY-11003

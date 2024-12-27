@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import Logo from "../assets/yaraspa.png";
+import Logo from "../../assets/yaraspa.png";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 
 const Navbar = () => {
