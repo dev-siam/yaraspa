@@ -17,7 +17,7 @@ const Footer = () => {
                 alt="logo"
                 className="w-8 h-8 lg:w-10 lg:h-10 mr-1"
               />
-              <p className="hidden sm:flex text-lg lg:text-2xl font-bold text-purple-600 dark:text-purple-400">
+              <p className="flex text-2xl font-bold text-purple-600 dark:text-purple-400">
                 Yaraspa
               </p>
             </Link>

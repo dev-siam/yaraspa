@@ -28,19 +28,24 @@ const Navbar = () => {
   // Navigation links
   const links = (
     <ul className="menu flex-col md:flex-row text-black">
-      <li className="">
+      <li>
         <NavLink to="/" className="hover:text-blue-500 dark:text-white">
           Home
         </NavLink>
       </li>
-      <li className="">
-        <NavLink to="/a" className="hover:text-blue-500 dark:text-white">
-          Home
+      <li>
+        <NavLink to="/products" className="hover:text-blue-500 dark:text-white">
+          Products
         </NavLink>
       </li>
-      <li className="">
-        <NavLink to="/b" className="hover:text-blue-500 dark:text-white">
-          Home
+      <li>
+        <NavLink to="/services" className="hover:text-blue-500 dark:text-white">
+          Services
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/about" className="hover:text-blue-500 dark:text-white">
+          About
         </NavLink>
       </li>
       
@@ -48,8 +53,8 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="mx-auto container flex justify-center relative">
-      <div className="w-11/12 md:w-10/12 mx-auto py-1 px-3 md:px-6 absolute top-2 text-center rounded-3xl bg-white dark:border dark:border-gray-700 dark:bg-gray-800 shadow-lg transition-colors duration-300   flex justify-between items-center ">
+    <nav className="mx-auto w-11/12 flex justify-center relative">
+      <div className="w-full md:w-11/12 lg:w-9/12 mx-auto py-1 px-2 md:px-6 absolute top-2 text-center rounded-3xl bg-white dark:border dark:border-gray-700 dark:bg-gray-800 shadow-lg transition-colors duration-300   flex justify-between items-center ">
         {/* Hamburger Menu */}
         {/* Dropdown for mobile */}
         <div className="dropdown lg:hidden">
@@ -91,7 +96,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className="hidden lg:flex">{links}</div>
 
-        {/* User Section */}
+        {/* Btn Section */}
         <div className="flex items-center gap-2">
           <button className="hidden" onClick={themeToggle}>
             {theme === "light" ? (
@@ -101,7 +106,7 @@ const Navbar = () => {
             )}
           </button>
           <NavLink
-            to="/login"
+            to="/contact"
             className="px-2 py-1 text-white rounded-lg bg-gradient-to-r from-purple-400 to-blue-500 hover:from-purple-500 hover:to-blue-600"
           >
             Contact Us
