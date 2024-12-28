@@ -5,12 +5,14 @@ import Features from "../components/Features";
 import Hero from "../components/Hero";
 import MoreAbout from "../components/MoreAbout";
 import OurServices from "../components/OurServices";
+import ProductList from "../components/ProductList";
 import Testimonial from "../components/Testimonial";
 
 export default function Home() {
   return (
     <div className="grid gap-10">
       <Hero />
+      <ProductList/>
       <MoreAbout />
       <Features />
       <OurServices />
