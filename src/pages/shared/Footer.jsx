@@ -121,12 +121,14 @@ const Footer = () => {
               placeholder="Your Email Address"
               className="flex-1 px-3 py-2 text-gray-800 dark:text-gray-900 dark:bg-gray-100 border border-gray-300 dark:border-gray-600 rounded-lg"
             />
-            <button
-              type="submit"
-              className="px-3 py-2 text-white text-center  rounded-lg bg-gradient-to-r from-purple-400 to-blue-500 hover:from-purple-500 hover:to-blue-600"
-            >
-              Send
-            </button>
+            <Link to="/contact">
+              <button
+                type="submit"
+                className="px-3 py-2 w-full text-white text-center  rounded-lg bg-gradient-to-r from-purple-400 to-blue-500 hover:from-purple-500 hover:to-blue-600"
+              >
+                Send
+              </button>
+            </Link>
           </form>
         </div>
       </div>
