@@ -16,7 +16,7 @@ const MoreAbout = () => {
             <h3 className="text-blue-600 font-semibold uppercase mb-2">
               About Us
             </h3>
-            <h2 className="text-4xl font-semibold text-gray-800 mb-4 leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-gray-800 mb-4 leading-tight">
               Discover the Best Deals on Top Products
             </h2>
             <p className="text-gray-600 mb-6">

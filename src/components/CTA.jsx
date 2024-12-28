@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const CallToAction = () => {
+const CTA = () => {
   return (
     <section className="py-16 bg-blue-500 relative overflow-hidden rounded-2xl">
       <div className="container mx-auto px-6 text-center">
@@ -55,4 +55,4 @@ const CallToAction = () => {
   );
 };
 
-export default CallToAction;
+export default CTA;

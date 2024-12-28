@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaShippingFast, FaAward, FaTags, FaShieldAlt } from "react-icons/fa";
 
-const Services = () => {
+const OurServices = () => {
   const services = [
     {
       icon: <FaAward className="text-yellow-500 text-3xl" />,
@@ -45,7 +45,7 @@ const Services = () => {
           Our Services
         </motion.h3>
         <motion.h2
-          className="text-center text-4xl font-semibold text-gray-800 mb-8"
+          className="text-center text-4xl lg:text-5xl font-semibold text-gray-800 mb-10"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -99,4 +99,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default OurServices;

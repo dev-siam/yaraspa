@@ -8,10 +8,10 @@ const Features = () => {
         <h3 className="text-center text-blue-600 font-semibold uppercase mb-2">
           Features
         </h3>
-        <h2 className="text-center text-4xl font-semibold text-gray-800 mb-8">
+        <h2 className="text-center text-4xl lg:text-5xl font-semibold text-gray-800 mb-8">
           What Makes Yaraspa Stand Out
         </h2>
-        <div className="grid sm:flex justify-center items-center gap-2 mb-12">
+        <div className="grid sm:flex justify-center items-center gap-4 mb-12">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

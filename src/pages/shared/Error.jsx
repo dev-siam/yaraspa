@@ -1,13 +1,10 @@
 import { Link } from "react-router-dom";
 import Photo404 from '../../assets/404A.gif'
-import { Helmet } from "react-helmet";
 
 export default function Error() {
   return (
     <div className="container min-h-screen flex flex-col items-center justify-center px-5 mx-auto">
-      <Helmet>
-        <title>404 Error</title>
-      </Helmet>
+      
       {/* <h2 className="mb-8 font-extrabold text-9xl text-gray-600">
             <span className="sr-only">Error</span>404
           </h2>
