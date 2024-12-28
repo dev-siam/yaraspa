@@ -4,14 +4,14 @@ import FeaturesImage from '../assets/features.png'
 const Features = () => {
   return (
     <section className="p">
-      <div className="container mx-auto px-6 ">
+      <div className="container mx-auto px-2 ">
         <h3 className="text-center text-blue-600 font-semibold uppercase mb-2">
           Features
         </h3>
         <h2 className="text-center text-4xl font-semibold text-gray-800 mb-8">
           What Makes Yaraspa Stand Out
         </h2>
-        <div className="flex justify-center items-center space-x-2 mb-12">
+        <div className="grid sm:flex justify-center items-center gap-2 mb-12">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -34,7 +34,7 @@ const Features = () => {
             Exclusive Deals
           </motion.button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 justify-center items-center">
           <div>
             <h3 className="text-blue-600 font-semibold mb-2">Why Choose Us</h3>
             <h2 className="text-3xl font-semibold text-gray-800 mb-4">
@@ -73,7 +73,7 @@ const Features = () => {
             <img
               src={FeaturesImage}
               alt="Features illustration"
-              className="rounded-lg"
+              className="rounded-lg w-full"
             />
           </motion.div>
         </div>

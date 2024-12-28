@@ -4,8 +4,8 @@ import Ecommerce from "../assets/ecommerce.jpg";
 const MoreAbout = () => {
   return (
     <section className="py-12">
-      <div className="container mx-auto px-6 md:px-6 lg:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div className="container mx-auto px-2 md:px-6 lg:px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Text Content with Animation */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -43,7 +43,7 @@ const MoreAbout = () => {
                 <span>24/7 Support</span>
               </li>
             </ul>
-            <div className="mt-6 flex items-center space-x-4">
+            <div className="mt-6 grid sm:grid-cols-2 items-center justify-around gap-4">
               <div className="flex items-center space-x-2">
                 <img
                   src="https://randomuser.me/api/portraits/men/50.jpg"

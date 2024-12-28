@@ -1,4 +1,4 @@
-import Brands from "../components/Brands";
+// import Brands from "../components/Brands";
 import CallToAction from "../components/CallToAction";
 import Features from "../components/Features";
 import Hero from "../components/Hero";

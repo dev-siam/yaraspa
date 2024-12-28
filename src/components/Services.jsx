@@ -35,7 +35,7 @@ const Services = () => {
 
   return (
     <section className="py-16">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-2">
         <motion.h3
           className="text-center text-blue-600 font-semibold uppercase mb-2"
           initial={{ opacity: 0, y: -20 }}

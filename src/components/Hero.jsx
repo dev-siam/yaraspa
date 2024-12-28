@@ -39,14 +39,14 @@ const Hero = () => {
   return (
     <motion.section
       ref={ref}
-      className="bg-blue-50 dark:bg-gray-800 py-16"
+      className=" dark:bg-gray-800 py-16"
       initial="hidden"
       animate={controls}
       variants={fadeIn}
     >
-      <div className="container mx-auto px-6 lg:flex items-center">
+      <div className="container mx-auto px-2 grid lg:grid-cols-2 items-center justify-center ">
         {/* Text Section */}
-        <div className="lg:w-1/2 text-center lg:text-left grid gap-3">
+        <div className="text-center lg:text-left grid gap-3">
           <motion.div
             className="mb-4 flex justify-center lg:justify-start"
             variants={fadeInUp}
@@ -95,16 +95,16 @@ const Hero = () => {
 
         {/* Image Section */}
         <motion.div
-          className="lg:w-1/2 mt-8 lg:mt-0 flex justify-center relative"
+          className=" flex justify-center relative"
           variants={fadeIn}
         >
           <img
             src={heroImage}
             alt="Hero Illustration"
-            className="w-full object-cover  lg:max-w-lg"
+            className="w-full object-cover"
           />
           <motion.div
-            className="absolute bottom-0 right-0 bg-white rounded-lg shadow-lg p-3 flex items-center gap-3"
+            className="absolute bottom-0 right-2 bg-white rounded-lg shadow-lg p-3 flex items-center gap-3"
             variants={fadeIn}
           >
             <div className="flex -space-x-2">
@@ -125,7 +125,7 @@ const Hero = () => {
               />
             </div>
             <p className="text-sm text-gray-700">
-              12,000+ Happy Sellers Trust Yaraspa
+              12,000+ Sellers Trust Yaraspa
             </p>
           </motion.div>
         </motion.div>
